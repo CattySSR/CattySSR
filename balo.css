@@ -1,0 +1,49 @@
+body { font-family: Arial, sans-serif; margin: 0; background: #fff8e1; }
+    header { background:#ffb300; padding:14px; text-align:center; }
+    header a { color:black; text-decoration:none; font-weight:bold; }
+    .wrap { max-width: 900px; margin: 0 auto; padding: 20px; }
+    .card { background:white; border:1px solid #eee; border-radius:12px; padding:16px; }
+    .top { display:flex; flex-wrap:wrap; gap:20px; align-items:flex-start; }
+    .top img { width: 360px; max-width:100%; border-radius:12px; border:1px solid #ddd; transition: transform .3s; }
+    .top img:hover { transform: scale(1.05); }
+    .info { flex: 1 1 260px; }
+    h1 { margin: 8px 0 10px; font-size: 24px; }
+    .price { color:#d32f2f; font-weight:bold; font-size:20px; margin: 8px 0 12px; }
+    .desc { color:#444; line-height:1.5; margin-bottom:12px; }
+    table { width:100%; border-collapse:collapse; margin:12px 0; }
+    th, td { border:1px solid #eee; padding:8px; text-align:left; }
+    th { background:#fff2cc; }
+    .actions { margin-top: 12px; display:flex; gap:10px; }
+    .btn { background:#ffb300; border:none; padding:10px 16px; border-radius:8px; font-weight:bold; cursor:pointer; transition: transform .2s, background .3s; }
+    .btn:hover { background:#ffa000; transform: scale(1.03); }
+    footer {  padding:14px; margin-top:20px; color:#333; }
+    nav {
+      background-color: #ffa000;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 12px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    nav a:hover {
+      background-color: #ffb300;
+    }
+    .container {
+      padding: 20px;
+    }
+       footer {
+      background-color: #ffb300;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
