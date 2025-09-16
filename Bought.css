@@ -1,0 +1,32 @@
+
+      .success-box {
+        text-align: center;
+        margin: 50px auto;
+        padding: 30px;
+        max-width: 500px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      }
+      .success-box h2 {
+        color: green;
+        margin-bottom: 20px;
+      }
+      .success-box p {
+        margin-bottom: 20px;
+        font-size: 18px;
+      }
+      .success-box a {
+        display: inline-block;
+        background: #ffb300;
+        color: black;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background 0.3s;
+      }
+      .success-box a:hover {
+        background: #ffa000;
+      }
+
