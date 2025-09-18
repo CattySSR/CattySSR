@@ -1,4 +1,4 @@
-    body { font-family: Arial, sans-serif; margin: 0; background: #fff8e1; }
+body { font-family: Arial, sans-serif; margin: 0; background: #fff8e1; }
     header { background:#ffb300; padding:14px; text-align:center; }
     header a { color:black; text-decoration:none; font-weight:bold; }
     .wrap { max-width: 900px; margin: 0 auto; padding: 20px; }
@@ -16,4 +16,50 @@
     .actions { margin-top: 12px; display:flex; gap:10px; }
     .btn { background:#ffb300; border:none; padding:10px 16px; border-radius:8px; font-weight:bold; cursor:pointer; transition: transform .2s, background .3s; }
     .btn:hover { background:#ffa000; transform: scale(1.03); }
-    footer { text-align:center; padding:14px; margin-top:20px; color:#333; }
+    footer {  padding:14px; margin-top:20px; color:#333; }
+    nav {
+      background-color: #ffa000;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 12px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    nav a:hover {
+      background-color: #ffb300;
+    }
+    .container {
+      padding: 20px;
+    }
+       footer {
+      background-color: #ffb300;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    .btn {
+  display: inline-block;
+  background-color: #ffb300;
+  padding: 10px 18px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.btn:hover {
+  background-color: #ffa000;
+  transform: scale(1.05);
+}
